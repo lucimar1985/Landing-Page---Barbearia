@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    
+    background-image: url('./assets/90nGa.jpg');
+    background-size: cover;
+    display: flex ;
+    background-repeat: no-repeat space;
+    overflow-x: hidden;
+    
+   
+}
+header{
+    background: #000000;
+    text-align: right;
+    padding: 20px;
+    width: 100vw;
+    
+}
+a{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 25px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    &:hover{
+        color: #fbb034;
+    }
+    &:active{
+        color: #885d19;
+    }
+}
+.button-orange{
+    background-color: #fbb034;
+    border: none;
+    color: #000000;
+    font-weight: bold;
+    height: 2.8rem;
+    width: 8.5rem;
+    margin: 0px 50px 0px 25px;
+    font-size: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    &:hover{
+        background-color: #885d19;
+        color: #ffffff;
+    }
+}
+div.img-barbeiro{
+    display: flex;
+    margin-left: 40%;
+    width: 20%;
+    img{
+        margin-top: 132px;
+        margin-left: 80px;
+        width: 720px;
+        border-radius: 50px;
+    }
+    
+}
+.wrapper{
+    position: absolute;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    padding: 35px;
+    width: 33rem;
+
+}
+h3{
+    background-color: #000000;
+    color: #fbb034;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+
+}
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+
+    text-align: initial;
+}
+p{
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 300;
+    width: 25rem;
+}
+
+.button-orange2{
+    margin-top: 4rem;
+    margin-left: 1px;
+}
+.button-transparent{
+    height: 2.8rem;
+    width: 8.5rem;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.6;
+    }
+}
